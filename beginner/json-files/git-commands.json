@@ -333,5 +333,10 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+  "title": "git config --global alias.please 'push --force-with-lease' ",
+   "description": "Git’s --force-with-lease option is far more polite: it checks that your local copy of the ref that you’re overwriting is up-to-date before overwriting it."
   }
+  
 ]
